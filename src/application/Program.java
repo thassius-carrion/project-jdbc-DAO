@@ -41,6 +41,12 @@ public class Program {
 		seller.setName("Thassius");
 		sDao.update(seller);
 		System.out.println("Update complete");
+		
+		System.out.println("\n==== Test 6: seller delete ====");
+		sDao.deleteById(13);
+		System.out.println("deleted!");
+		
+		
 	}
 
 }
